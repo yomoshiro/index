@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: auto;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.top-wrapper{
+    padding: 180px 0px 100px 0px;
+    background-image: url(../img/top-back.jpg);
+    background-size: cover;
+    color: white;
+
+    text-align: center;
+}
+
+.btn{
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+
+    border-radius: 4px;
+}
+
+.btn :hover{
+    opacity: 1;
+  }
+
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+.btn-wrapper{
+    margin: 20px 0px;
+}
+
+.btn-wrapper p{
+    margin: 10px 0px;
+}
+
+.icon{
+    padding: 8px 15px;
+    color: white;
+    display: inline-block;
+
+    border-radius: 4px;
+}
+
+header{
+    height: 65px;
+    background-color: #d2bfa5;
+}
+
+.logo{
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 1s;
+}
+
+.header-right :hover{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    transition: all 0.4s;
+}
+
+.header-right a{
+    line-height: 65px;
+    padding: 0px 25px;
+    color: white;
+    display: block;
+}
+
+.lesson-wrapper{
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+  
+  
+  /* headingクラスのCSSを指定してください */
+.heading{
+    padding: 60px 0px 30px 0px;
+    color: #5f5d60;
+}
+  
+  
+  /* headingの中の<h2>のCSSを指定してください */
+.heading h2{
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson img{
+    width: 200px;
+    height: 200px;
+}
